@@ -21,7 +21,7 @@ if($ly->data['main'] == "")
 {
 	$ly->data['main']   = '<div class = "temp"><p>Not much to report for now.</p></div>';
 }
-$ly->data['footer'] = '<footer id = "bottom"><p>Footer: &copy; Lydia by Mikael Roos (mos@dbwebb.se)</p></div>';
+$ly->data['footer'] = '<footer id = "bottom"><p>Lydia by Henrik Lundqvist. Inspired by and created with tutorial for &copy; Lydia by Mikael Roos (mos@dbwebb.se)</p></div>';
   
 /**
 * Print debuginformation from the framework.

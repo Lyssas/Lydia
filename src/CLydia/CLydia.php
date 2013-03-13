@@ -105,7 +105,7 @@ class CLydia implements ISingleton
 	    $ly = &$this;
 	    $functionsPath = "{$themePath}/functions.php";
 	    
-	    include("/themes/functions.php");
+	    include("themes/functions.php");
 	    if(is_file($functionsPath)) 
 	    {
 	    	    include $functionsPath;
